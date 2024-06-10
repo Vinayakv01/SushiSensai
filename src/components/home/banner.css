@@ -1,0 +1,14 @@
+.banner-slider .slick-dots {
+    bottom: 20px; /* Position the dots inside the banner images */
+}
+
+.banner-slider .slick-dots li button:before {
+    font-size: 12px; /* Adjust the size of the dots */
+    color: white; /* Color of the dots */
+    opacity: 0.75; /* Adjust the opacity */
+}
+
+.banner-slider .slick-dots li.slick-active button:before {
+    opacity: 1; /* Full opacity for active dot */
+    color: white; /* Color of the active dot */
+}
