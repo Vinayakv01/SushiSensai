@@ -6,7 +6,7 @@ import Footer from '../home/footer';
 const Layout = () => {
   return (
     <div className="">
-      <div className="relative">
+      <div className="">
         <Navbar className="absolute top-0 left-0  z-10" />
         <main>
           <Outlet />

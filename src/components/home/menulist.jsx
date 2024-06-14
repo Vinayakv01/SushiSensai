@@ -11,9 +11,9 @@ const MenuList = ({ menuItems }) => {
     };
 
     return (
-        <div className="p-4 grid grid-cols-3 gap-4">
+        <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {menuItems.map((item, index) => (
-                <div key={index} className="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div key={index} className="bg-white p-4 rounded-lg shadow-md">
                     <img
                         src={item.image || fallbackImage} // Use the fallback image if item.image is not available
                         alt={item.name}
