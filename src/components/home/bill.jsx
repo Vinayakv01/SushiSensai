@@ -2,9 +2,9 @@ import React from 'react';
 
 const Bill = ({ subtotal = 0, minOrder = 0, travelCosts = 0, directionsFree = 0, discount = 0, vat07 = 0, vat19 = 0, total = 0, isLoggedIn = false }) => {
     return (
-        <div className=''>
-            <h2 className="text-lg text-center font-semibold bg-[#367236] ">Order Overview</h2>
-            <div className="bg-[#D2E6C9]  p-4  shadow-md">
+        <div className='sticky top-20 mt-12 '>
+            <h2 className=" p-3 text-white text-xl text-center font-semibold rounded-tl-xl  bg-[#367236] ">Order Overview</h2>
+            <div className="bg-[#D2E6C9] rounded-br-xl p-4  shadow-md">
 
                 <div className="flex justify-between mb-2">
                     <span>Subtotal</span>
@@ -50,8 +50,8 @@ const Bill = ({ subtotal = 0, minOrder = 0, travelCosts = 0, directionsFree = 0,
 
                 <div></div>
                 <div className="flex justify-center mt-4">
-                    <button className="w-full bg-gradient-to-r from-[#BCE158] to-[#387339] hover:from-[#387339] hover:to-[#BCE158] text-white font-bold py-2 px-4 rounded transition duration-400 ease-in-out">
-                        Sample Button
+                    <button className="w-full text-xl bg-gradient-to-r from-[#BCE158] to-[#387339] hover:from-[#387339] hover:to-[#BCE158] text-white font-semibold py-2 px-4 rounded-tl-xl rounded-br-xl transition duration-400 ease-in-out">
+                        Order
                     </button>
                 </div>
 

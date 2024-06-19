@@ -15,7 +15,7 @@ const MenuHeadBar = ({ menuHeads, onMenuHeadClick }) => {
                     {menuHeads.map((menuHead, index) => (
                         <li
                             key={index}
-                            className={`cursor-pointer pt-1 pb-1.5 pl-4 pr-4 rounded-full text-lg transition duration-300 ease-in-out ${activeCategory === menuHead.category ? 'bg-[#D2E7C9] text-black font-bold pt-1 pb-1.5 pl-4 pr-4' : 'bg-[#EFF7E7] hover:bg-[#D2E7C9] pt-1 pb-1.5 pl-4 pr-4'}`}
+                            className={`cursor-pointer pt-1 pb-1.5 pl-4 pr-4 rounded-full text-gray-500 text-lg transition duration-300 ease-in-out ${activeCategory === menuHead.category ? 'bg-[#D2E7C9] text-[#367236] font-semibold pt-1 pb-1.5 pl-4 pr-4' : 'bg-[#EFF7E7] hover:bg-[#D2E7C9] pt-1 pb-1.5 pl-4 pr-4'}`}
                         >
                             <ScrollLink
                                 to={menuHead.category}
